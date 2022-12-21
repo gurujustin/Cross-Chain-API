@@ -7,7 +7,7 @@ import CrossChainAPI from '@thorswap/cross-chain-api-sdk';
 const phrase = '...' // your mnemonic phrase
 
 const quoteParams = {
-    sellAsset: 'ETH.THOR-0xa5f2211b9b8170f694421f2046281775e8468044',
+    sellAsset: 'ETH.ETH',
     buyAsset: 'BTC.BTC',
     sellAmount: '100',
     senderAddress: '0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC',
