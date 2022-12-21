@@ -1,0 +1,31 @@
+{
+  "name": "sample-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node api/scenarios/thorchain-to-thorchain/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@cosmjs/encoding": "^0.28.13",
+    "@cosmos-client/core": "^0.45.3",
+    "@thorswap-lib/xchain-client": "^0.11.6",
+    "@thorswap-lib/xchain-cosmos": "^0.20.6",
+    "@thorswap-lib/xchain-crypto": "^0.2.11",
+    "@thorswap-lib/xchain-thorchain": "^0.22.6",
+    "@thorswap-lib/xchain-util": "^0.4.15",
+    "@xchainjs/xchain-client": "^0.11.2",
+    "@xchainjs/xchain-cosmos": "^0.17.0",
+    "@xchainjs/xchain-crypto": "^0.2.6",
+    "@xchainjs/xchain-terra": "^0.1.2",
+    "@xchainjs/xchain-thorchain": "^0.24.1",
+    "@xchainjs/xchain-util": "^0.7.1",
+    "bech32-buffer": "^0.2.0",
+    "dotenv": "^16.0.1",
+    "web3": "^1.7.5"
+  }
+}
