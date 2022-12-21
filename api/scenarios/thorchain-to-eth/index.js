@@ -8,7 +8,7 @@ const phrase = '...' // your mnemonic phrase
 
 const quoteParams = {
     sellAsset: 'THOR.RUNE',
-    buyAsset: 'ETH.CRV-0xd533a949740bb3306d119cc777fa900ba034cd52',
+    buyAsset: 'ETH.ETH',
     sellAmount: '35',
     senderAddress: 'thor15knytkmnqxz7jq0aup2v4k99cx6y4luurg0uwr',
     recipientAddress: '0xA58818F1cA5A7DD524Eca1F89E2325e15BAD6cc4'
