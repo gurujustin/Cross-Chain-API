@@ -5,7 +5,7 @@ const fraxAbi = require('./frax.json');
 
 const provider = '...'; // your eth provider url
 const privateKey = '...' // your eth private key
-const myWallet = '0xA58818F1cA5A7DD524Eca1F89E2325e15BAD6cc4'
+const myWallet = '0xA58818F1cA5A7DD524Eca1F89E2325e15BAD6cc4' // your wallet address
 
 const web3 = new Web3(provider);
 
