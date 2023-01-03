@@ -36,7 +36,7 @@ let client;
 
   async function executeTxn() {
     const quote = await fetchQuote();
-    const calldata = quote.calldata;
+    const calldata = quote.routes[0].calldata
 
     const fromAsset = assetFromString(quoteParams.sellAsset);
     const toAsset = assetFromString(quoteParams.buyAsset);
