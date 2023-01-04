@@ -37,7 +37,7 @@ function fetchQuote() {
 async function swapOut() {
     const quote = await fetchQuote();
 
-    const { fromAsset, amountIn, memo } = quote.calldata;
+    const { fromAsset, amountIn, memo } = quote.routes[0].calldata;
     const asset = assetFromString(fromAsset);
     const amount = assetAmount(amountIn);
 
